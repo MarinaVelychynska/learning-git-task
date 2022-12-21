@@ -14,3 +14,17 @@ print(second_list)
 third_list = [i **3 for i in first_list]
 print(third_list)
 
+print("Номер 1")
+for i in range(1, 6):
+    print(str(" * " * 10))
+    print(str("  *" * 10))
+
+
+print("Номер 2") 
+
+print("Перший варіант") 
+for i in range(0, 8, 2):
+  stars = i + 2
+  for i in range(2):
+    print("*" * stars)
+
