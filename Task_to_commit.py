@@ -13,3 +13,7 @@ print(second_list)
 
 third_list = [i **3 for i in first_list]
 print(third_list)
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+results = [number**3 for number in numbers]
+print(results)
