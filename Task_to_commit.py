@@ -5,11 +5,3 @@ for k, v in my_shopping_dict.items():
   print(f"Я йду до магазину {k.title()}, і купую там такі товари {products}")
   sum_dict_values = sum((len(v) for v in my_shopping_dict.values()))
 print(f"Я разом купую {sum_dict_values} товарів.")
-
-first_list = [i for i in range(101)] 
-
-second_list = [i for i in first_list if i % 5==0]
-print(second_list)
-
-third_list = [i **3 for i in first_list]
-print(third_list)
